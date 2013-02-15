@@ -9,7 +9,8 @@
   <meta name="author" content="Xenor">
 
   
-  <meta name="description" content="&#8212; layout: post name: notes title: Notes date: 2012-03-13 08:56:00.000000000 +08:00 categories: - linux - work - note permalink: /2012/03/notes. &hellip;">
+  <meta name="description" content="If you are in Taiwan like me, need to go to /etc/hosts and add one line 1
+173.194.72.132 &lt;blogname&gt;.blogspot.tw Pack your blogspot post (the &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -63,6 +64,90 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/02/15/move-blogpost-to-octopress/">Move Blogpost to Octopress</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-15T14:42:00+08:00" pubdate data-updated="true">Feb 15<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>If you are in Taiwan like me, need to go to /etc/hosts and add one line</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>173.194.72.132 &lt;blogname&gt;.blogspot.tw </span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>Pack your blogspot post (the max-results in gist is 500, adjust it for you need)</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git clone git://gist.github.com/1807781
+</span><span class='line'>$ cd 1807781
+</span><span class='line'>$ sh ./bloggerImport.sh &lt;blogname&gt; </span></code></pre></td></tr></table></div></figure>
+
+
+<p>After that, you will get a _post directory, but before copy it to source, we need something to convert html to markdown</p>
+
+<p>I use reverse_markdown :
+<a href="https://github.com/xijo/reverse_markdown">reverse_markdown</a>
+or in ruby envirament simply do :</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>gem install reverse_markdown</span></code></pre></td></tr></table></div></figure>
+
+
+<p>When is&#8217;s all ready, we use some command to convert all posts to markdown :</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd _posts
+</span><span class='line'>$ find -name "*.html" | sed -e 's/\.html//' | xargs -n 1 -I @ sh -c 'reverse_markdown @.html &gt; @.markdown'
+</span><span class='line'>$ rm *.html # remove all html files</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And finally, we can deploy :</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd ..
+</span><span class='line'>$ cp _posts &lt;to_your_octopress_source&gt;/source
+</span><span class='line'>$ cd &lt;to_your_octopress_source&gt;
+</span><span class='line'>$ rake generate && rake deploy</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -468,52 +553,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/06/26/blog-post_26/">Blog Post_26</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-06-26T00:00:00+08:00" pubdate data-updated="true">Jun 26<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>&#8212; layout: post name: blog-post_26 title: 家中事 date: 2010-06-26 01:22:00.000000000 +08:00 categories: - Life permalink: /2010/06/blog-post_26.html &#8212; 人與人之間的關係，血緣是唯一無法選擇的。</p>
-
-<p>以血緣做為手段，扭曲拉扯人際關係中最重要的信任，不但不見悔意，<br/>
-連償還過錯也是由別人來負責，我實在無法忍受。</p>
-
-<p>路是自己選的，當你選擇破壞自己親人的人生之前，你就已經知道結果。<br/>
-走到這條路上竟然還有人願意為你說話、為你負擔結果，是不是該照照鏡子，<br/>
-你何德何能還敢接受如此的恩惠？</p>
-
-<p>我尊敬你是我的長輩，因此我不應指責你該如何負擔自己的所作所為，<br/>
-但在此之後，別想再聽到我對你說任何一句話。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -529,6 +568,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/02/15/move-blogpost-to-octopress/">Move blogpost to octopress</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/03/13/notes/">Notes</a>
       </li>
     
@@ -542,10 +585,6 @@
     
       <li class="post">
         <a href="/blog/2011/01/05/murmur/">Murmur</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/01/04/blog-post_04/">Blog Post_04</a>
       </li>
     
   </ul>
@@ -615,6 +654,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/02/15/move-blogpost-to-octopress/">Move blogpost to octopress</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/03/13/notes/">Notes</a>
       </li>
     
@@ -628,10 +671,6 @@
     
       <li class="post">
         <a href="/blog/2011/01/05/murmur/">Murmur</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/01/04/blog-post_04/">Blog Post_04</a>
       </li>
     
   </ul>

@@ -4,7 +4,7 @@
   <title><![CDATA[Xeno World]]></title>
   <link href="http://tubaxenor.github.com/atom.xml" rel="self"/>
   <link href="http://tubaxenor.github.com/"/>
-  <updated>2013-02-15T14:34:02+08:00</updated>
+  <updated>2013-02-15T15:14:33+08:00</updated>
   <id>http://tubaxenor.github.com/</id>
   <author>
     <name><![CDATA[Xenor]]></name>
@@ -12,6 +12,63 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Move blogpost to octopress]]></title>
+    <link href="http://tubaxenor.github.com/blog/2013/02/15/move-blogpost-to-octopress/"/>
+    <updated>2013-02-15T14:42:00+08:00</updated>
+    <id>http://tubaxenor.github.com/blog/2013/02/15/move-blogpost-to-octopress</id>
+    <content type="html"><![CDATA[<p>If you are in Taiwan like me, need to go to /etc/hosts and add one line</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>173.194.72.132 &lt;blogname&gt;.blogspot.tw </span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>Pack your blogspot post (the max-results in gist is 500, adjust it for you need)</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git clone git://gist.github.com/1807781
+</span><span class='line'>$ cd 1807781
+</span><span class='line'>$ sh ./bloggerImport.sh &lt;blogname&gt; </span></code></pre></td></tr></table></div></figure>
+
+
+<p>After that, you will get a _post directory, but before copy it to source, we need something to convert html to markdown</p>
+
+<p>I use reverse_markdown :
+<a href="https://github.com/xijo/reverse_markdown">reverse_markdown</a>
+or in ruby envirament simply do :</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>gem install reverse_markdown</span></code></pre></td></tr></table></div></figure>
+
+
+<p>When is&#8217;s all ready, we use some command to convert all posts to markdown :</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd _posts
+</span><span class='line'>$ find -name "*.html" | sed -e 's/\.html//' | xargs -n 1 -I @ sh -c 'reverse_markdown @.html &gt; @.markdown'
+</span><span class='line'>$ rm *.html # remove all html files</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And finally, we can deploy :</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd ..
+</span><span class='line'>$ cp _posts &lt;to_your_octopress_source&gt;/source
+</span><span class='line'>$ cd &lt;to_your_octopress_source&gt;
+</span><span class='line'>$ rake generate && rake deploy</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Notes]]></title>
@@ -275,15 +332,6 @@
 <p>還是新聞報導或資訊曝光後會因此而反思並減少犯罪事件？</p>
 
 <p>又或是因此而增加個體壓力？若愈多犯罪事件的產生，是否是因個體壓力增加而形成？</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Blog Post_16]]></title>
-    <link href="http://tubaxenor.github.com/blog/2010/05/16/blog-post_16/"/>
-    <updated>2010-05-16T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2010/05/16/blog-post_16</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: blog-post_16 title: 每日一句 date: 2010-05-16 21:58:00.000000000 +08:00 categories: - Life permalink: /2010/05/blog-post_16.html &#8212; metacognition: See your self through your eyes on sky.</p>
 ]]></content>
   </entry>
   
