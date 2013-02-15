@@ -1,0 +1,1 @@
+--- layout: post name: blog-post\_26 title: 每日一句 date: 2010-05-26 11:08:00.000000000 +08:00 categories: - Life permalink: /2010/05/blog-post\_26.html --- People always want something when they already have everything.

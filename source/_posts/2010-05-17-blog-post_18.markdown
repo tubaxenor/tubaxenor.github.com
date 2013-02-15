@@ -1,0 +1,1 @@
+--- layout: post name: blog-post\_18 title: 每日一句 date: 2010-05-17 11:14:00.000000000 +08:00 categories: - Life permalink: /2010/05/blog-post\_18.html --- Imagine success only makes you happy, it is doing that makes success possible.

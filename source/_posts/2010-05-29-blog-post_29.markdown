@@ -1,0 +1,1 @@
+--- layout: post name: blog-post\_29 title: 每日一句 date: 2010-05-29 21:06:00.000000000 +08:00 categories: - Life permalink: /2010/05/blog-post\_29.html --- Sigh makes more sighs.
