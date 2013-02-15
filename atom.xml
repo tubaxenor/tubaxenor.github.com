@@ -4,7 +4,7 @@
   <title><![CDATA[Xeno World]]></title>
   <link href="http://tubaxenor.github.com/atom.xml" rel="self"/>
   <link href="http://tubaxenor.github.com/"/>
-  <updated>2013-02-15T16:27:19+08:00</updated>
+  <updated>2013-02-15T16:30:15+08:00</updated>
   <id>http://tubaxenor.github.com/</id>
   <author>
     <name><![CDATA[Xenor]]></name>
@@ -38,9 +38,12 @@
 
 <p>After that, you will get a _post directory, but before copy it to source, we need something to convert html to markdown</p>
 
-<p>I use reverse_markdown :
-[reverse_markdown]
-or in ruby envirament simply do :</p>
+<p>I use reverse_markdown :</p>
+
+<pre><code>[https://github.com/xijo/reverse_markdown](https://github.com/xijo/reverse_markdown)
+</code></pre>
+
+<p>or in ruby envirament simply do :</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>gem install reverse_markdown</span></code></pre></td></tr></table></div></figure>
