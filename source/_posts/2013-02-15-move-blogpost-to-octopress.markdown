@@ -19,11 +19,11 @@ $ cd 4958888
 $ sh ./bloggerImport.sh <blogname> 
 ```
 
-After that, you will get a _post directory, but before copy it to source, we need something to convert html to markdown
+After that, you will get a _posts directory, but before copy it to source, we need something to convert html to markdown
 
 I use reverse_markdown :
-[reverse_markdown]
-[reverse_markdown]: https://github.com/xijo/reverse_markdown 
+
+[https://github.com/xijo/reverse_markdown](https://github.com/xijo/reverse_markdown)
 
 or in ruby envirament simply do :
 ```
