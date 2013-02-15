@@ -1,10 +1,10 @@
 ---  
 layout: post  
-name: blog-post\_04  
+name: blog-post_04  
 title: 立場  
 date: 2011-01-04 09:50:00 +0800  
 categories: ["政治"]  
-permalink: /2011/01/blog-post\_04.html  
+permalink: /2011/01/blog-post_04.html  
 ---  
 前幾個禮拜看到人本vs霸凌，我的確是非常鄙視人本基金會的方式，  
     

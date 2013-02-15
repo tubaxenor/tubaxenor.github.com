@@ -1,10 +1,10 @@
 ---  
 layout: post  
-name: blog-post\_26  
+name: blog-post_26  
 title: 家中事  
 date: 2010-06-26 01:22:00 +0800  
 categories: ["Life"]  
-permalink: /2010/06/blog-post\_26.html  
+permalink: /2010/06/blog-post_26.html  
 ---  
 人與人之間的關係，血緣是唯一無法選擇的。  
     
