@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: blog | Xeno World]]></title>
+  <link href="http://tubaxenor.github.com/blog/categories/blog/atom.xml" rel="self"/>
+  <link href="http://tubaxenor.github.com/"/>
+  <updated>2013-02-15T15:18:36+08:00</updated>
+  <id>http://tubaxenor.github.com/</id>
+  <author>
+    <name><![CDATA[Xenor]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Move blogpost to octopress]]></title>
+    <link href="http://tubaxenor.github.com/blog/2013/02/15/move-blogpost-to-octopress/"/>
+    <updated>2013-02-15T14:42:00+08:00</updated>
+    <id>http://tubaxenor.github.com/blog/2013/02/15/move-blogpost-to-octopress</id>
+    <content type="html"><![CDATA[<p>If you are in Taiwan like me, need to go to /etc/hosts and add one line
+<code>
+173.194.72.132 &lt;blogname&gt;.blogspot.tw
+</code></p>
+
+<p>Pack your blogspot post (the max-results in gist is 500, adjust it for you need)
+<code>
+$ git clone git://gist.github.com/1807781
+$ cd 1807781
+$ sh ./bloggerImport.sh &lt;blogname&gt;
+</code></p>
+
+<p>After that, you will get a _post directory, but before copy it to source, we need something to convert html to markdown</p>
+
+<p>I use reverse_markdown :
+<a href="https://github.com/xijo/reverse_markdown">reverse_markdown</a>
+or in ruby envirament simply do :
+<code>
+gem install reverse_markdown
+</code></p>
+
+<p>When is's all ready, we use some command to convert all posts to markdown :
+<code>
+$ cd _posts
+$ find -name "*.html" | sed -e 's/\.html//' | xargs -n 1 -I @ sh -c 'reverse_markdown @.html &gt; @.markdown'
+$ rm *.html # remove all html files
+</code></p>
+
+<p>And finally, we can deploy :
+<code>
+$ cd ..
+$ cp _posts &lt;to_your_octopress_source&gt;/source
+$ cd &lt;to_your_octopress_source&gt;
+$ rake generate &amp;&amp; rake deploy
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>

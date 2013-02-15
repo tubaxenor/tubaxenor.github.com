@@ -1,0 +1,21 @@
+<p>&#8212; layout: post name: notes title: Notes date: 2012-03-13 08:56:00.000000000 +08:00 categories: - linux - work - note permalink: /2012/03/notes.html &#8212; no-password setting for linux:<br/>
+  sudo visudo     #setting sudo with vi<br/>
+  put &#8220;NOPASSWD:&#8221;</p>
+
+<p>ssh: # put your public key to the target computer<br/>
+  ssh-keygen # generate public and private key<br/>
+  scp id_rsa.pub 192.168.0.xxx: #put the key in to 192.168.0.xxx<br/>
+  ssh -p 123 192.168.0.xxx #ssh to the target computer with port 123<br/>
+  mkdir .ssh #make your own ssh dir there<br/>
+  mv id_rsa.pub .ssh<br/>
+  mv id_rsa.pub .ssh/id_rsa.pub<br/>
+  mv  .ssh/id_rsa.pub .ssh/authorized_key2</p>
+
+<p>mtr # trace route and ping tool<br/>
+   <a href="http://www.bitwizard.nl/mtr/">http://www.bitwizard.nl/mtr/</a></p>
+
+<p>fix hd3000 graphic card problem<br/>
+   <a href="http://community.linuxmint.com/tutorial/view/767">http://community.linuxmint.com/tutorial/view/767</a></p>
+
+<p>sqlite gui tool<br/>
+  sqliteman</p>
