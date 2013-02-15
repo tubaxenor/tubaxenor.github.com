@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blog | Xeno World]]></title>
   <link href="http://tubaxenor.github.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://tubaxenor.github.com/"/>
-  <updated>2013-02-15T16:24:50+08:00</updated>
+  <updated>2013-02-15T16:27:19+08:00</updated>
   <id>http://tubaxenor.github.com/</id>
   <author>
     <name><![CDATA[Xenor]]></name>
@@ -33,7 +33,7 @@ $ sh ./bloggerImport.sh &lt;blogname&gt;
 <p>After that, you will get a _post directory, but before copy it to source, we need something to convert html to markdown</p>
 
 <p>I use reverse_markdown :
-<a href="https://github.com/xijo/reverse_markdown">reverse_markdown</a>
+[reverse_markdown]
 or in ruby envirament simply do :
 <code>
 gem install reverse_markdown
