@@ -4,7 +4,7 @@
   <title><![CDATA[Xeno World]]></title>
   <link href="http://tubaxenor.github.com/atom.xml" rel="self"/>
   <link href="http://tubaxenor.github.com/"/>
-  <updated>2013-02-15T15:18:36+08:00</updated>
+  <updated>2013-02-15T16:24:50+08:00</updated>
   <id>http://tubaxenor.github.com/</id>
   <author>
     <name><![CDATA[Xenor]]></name>
@@ -31,8 +31,8 @@
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ git clone git://gist.github.com/1807781
-</span><span class='line'>$ cd 1807781
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git clone git://gist.github.com/4958888
+</span><span class='line'>$ cd 4958888
 </span><span class='line'>$ sh ./bloggerImport.sh &lt;blogname&gt; </span></code></pre></td></tr></table></div></figure>
 
 
@@ -72,10 +72,10 @@ or in ruby envirament simply do :</p>
   
   <entry>
     <title type="html"><![CDATA[Notes]]></title>
-    <link href="http://tubaxenor.github.com/blog/2012/03/13/notes/"/>
-    <updated>2012-03-13T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2012/03/13/notes</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: notes title: Notes date: 2012-03-13 08:56:00.000000000 +08:00 categories: - linux - work - note permalink: /2012/03/notes.html &#8212; no-password setting for linux:<br/>
+    <link href="http://tubaxenor.github.com/2012/03/notes.html"/>
+    <updated>2012-03-13T08:56:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2012/03/notes</id>
+    <content type="html"><![CDATA[<p>no-password setting for linux:<br/>
   sudo visudo     #setting sudo with vi<br/>
   put &#8220;NOPASSWD:&#8221;</p>
 
@@ -100,11 +100,11 @@ or in ruby envirament simply do :</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Ubuntu Install 32 Kernel]]></title>
-    <link href="http://tubaxenor.github.com/blog/2012/02/21/ubuntu-install-32-kernel/"/>
-    <updated>2012-02-21T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2012/02/21/ubuntu-install-32-kernel</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: ubuntu-install-32-kernel title: Ubuntu install 3.2 kernel date: 2012-02-21 22:53:00.000000000 +08:00 categories: - ubuntu permalink: /2012/02/ubuntu-install-32-kernel.html &#8212; 買了一台HP G4-1206AX，APU跟ATI的顯卡真的有夠難搞&#8230;</p>
+    <title type="html"><![CDATA[Ubuntu install 3.2 kernel]]></title>
+    <link href="http://tubaxenor.github.com/2012/02/ubuntu-install-32-kernel.html"/>
+    <updated>2012-02-21T22:53:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2012/02/ubuntu-install-32-kernel</id>
+    <content type="html"><![CDATA[<p>買了一台HP G4-1206AX，APU跟ATI的顯卡真的有夠難搞&#8230;</p>
 
 <p>一定要好好記錄一下怎麼搞定的！</p>
 
@@ -121,20 +121,20 @@ or in ruby envirament simply do :</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Pcman X Using Chromium]]></title>
-    <link href="http://tubaxenor.github.com/blog/2012/02/21/pcman-x-using-chromium/"/>
-    <updated>2012-02-21T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2012/02/21/pcman-x-using-chromium</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: pcman-x-using-chromium title: PCMan X using chromium date: 2012-02-21 22:53:00.000000000 +08:00 categories: - ubuntu permalink: /2012/02/pcman-x-using-chromium.html &#8212; <em>chromium</em>-browser %<em>s</em></p>
+    <title type="html"><![CDATA[PCMan X using chromium]]></title>
+    <link href="http://tubaxenor.github.com/2012/02/pcman-x-using-chromium.html"/>
+    <updated>2012-02-21T22:53:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2012/02/pcman-x-using-chromium</id>
+    <content type="html"><![CDATA[<p><em>chromium</em>-browser %<em>s</em></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Murmur]]></title>
-    <link href="http://tubaxenor.github.com/blog/2011/01/05/murmur/"/>
-    <updated>2011-01-05T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2011/01/05/murmur</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: murmur title: murmur date: 2011-01-05 16:49:00.000000000 +08:00 categories: - Life permalink: /2011/01/murmur.html &#8212; 世界上總是會有你討厭的人跟討厭你的人，在公司裡頭難免會碰到其中之一，</p>
+    <title type="html"><![CDATA[murmur]]></title>
+    <link href="http://tubaxenor.github.com/2011/01/murmur.html"/>
+    <updated>2011-01-05T16:49:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2011/01/murmur</id>
+    <content type="html"><![CDATA[<p>世界上總是會有你討厭的人跟討厭你的人，在公司裡頭難免會碰到其中之一，</p>
 
 <p>討厭你的人，除了公事別跟他接觸就好；你討厭的人，通常都很愛黏著你不放，</p>
 
@@ -147,11 +147,11 @@ or in ruby envirament simply do :</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Blog Post_04]]></title>
-    <link href="http://tubaxenor.github.com/blog/2011/01/04/blog-post_04/"/>
-    <updated>2011-01-04T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2011/01/04/blog-post_04</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: blog-post_04 title: 立場 date: 2011-01-04 09:50:00.000000000 +08:00 categories: - 政治 permalink: /2011/01/blog-post_04.html &#8212; 前幾個禮拜看到人本vs霸凌，我的確是非常鄙視人本基金會的方式，</p>
+    <title type="html"><![CDATA[立場]]></title>
+    <link href="http://tubaxenor.github.com/2011/01/blog-post\_04.html"/>
+    <updated>2011-01-04T09:50:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2011/01/blog-post_04</id>
+    <content type="html"><![CDATA[<p>前幾個禮拜看到人本vs霸凌，我的確是非常鄙視人本基金會的方式，</p>
 
 <p>與大多數年輕人接觸這個議題的方式相同，完全是透過電子媒體得知相關論述，</p>
 
@@ -172,11 +172,11 @@ or in ruby envirament simply do :</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Blog Post]]></title>
-    <link href="http://tubaxenor.github.com/blog/2011/01/03/blog-post/"/>
-    <updated>2011-01-03T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2011/01/03/blog-post</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: blog-post title: 新文章 date: 2011-01-03 15:10:00.000000000 +08:00 categories: - Life permalink: /2011/01/blog-post.html &#8212; 結果一晃眼就來到2011啦，轉職成程式設計師快半年了，</p>
+    <title type="html"><![CDATA[新文章]]></title>
+    <link href="http://tubaxenor.github.com/2011/01/blog-post.html"/>
+    <updated>2011-01-03T15:10:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2011/01/blog-post</id>
+    <content type="html"><![CDATA[<p>結果一晃眼就來到2011啦，轉職成程式設計師快半年了，</p>
 
 <p>回首望去，結果還是沒念成書阿，科科。</p>
 
@@ -193,22 +193,33 @@ or in ruby envirament simply do :</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Update Myself]]></title>
-    <link href="http://tubaxenor.github.com/blog/2010/07/30/update-myself/"/>
-    <updated>2010-07-30T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2010/07/30/update-myself</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: update-myself title: Update myself. date: 2010-07-30 10:25:00.000000000 +08:00 categories: - work permalink: /2010/07/update-myself.html &#8212; PHP、MySQL、Javascript、JQuery、Ajax，</p>
+    <title type="html"><![CDATA[Update myself.]]></title>
+    <link href="http://tubaxenor.github.com/2010/07/update-myself.html"/>
+    <updated>2010-07-30T10:25:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2010/07/update-myself</id>
+    <content type="html"><![CDATA[<p>PHP、MySQL、Javascript、JQuery、Ajax，</p>
 
 <p>希望不要再是半桶水。</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Blog Post_7132]]></title>
-    <link href="http://tubaxenor.github.com/blog/2010/06/26/blog-post_7132/"/>
-    <updated>2010-06-26T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2010/06/26/blog-post_7132</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: blog-post_7132 title: 七年 date: 2010-06-26 01:42:00.000000000 +08:00 categories: [] permalink: /2010/06/blog-post_7132.html &#8212; 同樣的早晨，同樣的身影，</p>
+    <title type="html"><![CDATA[每日一句+注釋]]></title>
+    <link href="http://tubaxenor.github.com/2010/06/blog-post\_4491.html"/>
+    <updated>2010-06-26T01:48:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2010/06/blog-post_4491</id>
+    <content type="html"><![CDATA[<p>Life can be different if you have a time machine.</p>
+
+<p>木已成舟、生米煮成熟飯、雞蛋變成荷包蛋，已經做過的，無法重來，這就是人生。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[七年]]></title>
+    <link href="http://tubaxenor.github.com/2010/06/blog-post\_7132.html"/>
+    <updated>2010-06-26T01:42:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2010/06/blog-post_7132</id>
+    <content type="html"><![CDATA[<p>同樣的早晨，同樣的身影，</p>
 
 <p>擁抱同樣的身體，湧入同樣的氣息，</p>
 
@@ -221,22 +232,11 @@ or in ruby envirament simply do :</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Blog Post_4491]]></title>
-    <link href="http://tubaxenor.github.com/blog/2010/06/26/blog-post_4491/"/>
-    <updated>2010-06-26T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2010/06/26/blog-post_4491</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: blog-post_4491 title: 每日一句+注釋 date: 2010-06-26 01:48:00.000000000 +08:00 categories: - Life permalink: /2010/06/blog-post_4491.html &#8212; Life can be different if you have a time machine.</p>
-
-<p>木已成舟、生米煮成熟飯、雞蛋變成荷包蛋，已經做過的，無法重來，這就是人生。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Blog Post_26]]></title>
-    <link href="http://tubaxenor.github.com/blog/2010/06/26/blog-post_26/"/>
-    <updated>2010-06-26T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2010/06/26/blog-post_26</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: blog-post_26 title: 家中事 date: 2010-06-26 01:22:00.000000000 +08:00 categories: - Life permalink: /2010/06/blog-post_26.html &#8212; 人與人之間的關係，血緣是唯一無法選擇的。</p>
+    <title type="html"><![CDATA[家中事]]></title>
+    <link href="http://tubaxenor.github.com/2010/06/blog-post\_26.html"/>
+    <updated>2010-06-26T01:22:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2010/06/blog-post_26</id>
+    <content type="html"><![CDATA[<p>人與人之間的關係，血緣是唯一無法選擇的。</p>
 
 <p>以血緣做為手段，扭曲拉扯人際關係中最重要的信任，不但不見悔意，<br/>
 連償還過錯也是由別人來負責，我實在無法忍受。</p>
@@ -251,87 +251,83 @@ or in ruby envirament simply do :</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Blog Post]]></title>
-    <link href="http://tubaxenor.github.com/blog/2010/06/17/blog-post/"/>
-    <updated>2010-06-17T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2010/06/17/blog-post</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: blog-post title: 每日一句 date: 2010-06-17 10:42:00.000000000 +08:00 categories: - Life permalink: /2010/06/blog-post.html &#8212; Time can buy things that money can&#8217;t.</p>
+    <title type="html"><![CDATA[每日一句]]></title>
+    <link href="http://tubaxenor.github.com/2010/06/blog-post.html"/>
+    <updated>2010-06-17T10:42:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2010/06/blog-post</id>
+    <content type="html"><![CDATA[<p>Time can buy things that money can&#8217;t.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Blog Post_29]]></title>
-    <link href="http://tubaxenor.github.com/blog/2010/05/29/blog-post_29/"/>
-    <updated>2010-05-29T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2010/05/29/blog-post_29</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: blog-post_29 title: 每日一句 date: 2010-05-29 21:06:00.000000000 +08:00 categories: - Life permalink: /2010/05/blog-post_29.html &#8212; Sigh makes more sighs.</p>
+    <title type="html"><![CDATA[每日一句]]></title>
+    <link href="http://tubaxenor.github.com/2010/05/blog-post\_29.html"/>
+    <updated>2010-05-29T21:06:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2010/05/blog-post_29</id>
+    <content type="html"><![CDATA[<p>Sigh makes more sighs.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Blog Post_26]]></title>
-    <link href="http://tubaxenor.github.com/blog/2010/05/26/blog-post_26/"/>
-    <updated>2010-05-26T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2010/05/26/blog-post_26</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: blog-post_26 title: 每日一句 date: 2010-05-26 11:08:00.000000000 +08:00 categories: - Life permalink: /2010/05/blog-post_26.html &#8212; People always want something when they already have everything.</p>
+    <title type="html"><![CDATA[每日一句]]></title>
+    <link href="http://tubaxenor.github.com/2010/05/blog-post\_26.html"/>
+    <updated>2010-05-26T11:08:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2010/05/blog-post_26</id>
+    <content type="html"><![CDATA[<p>People always want something when they already have everything.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Blog Post_23]]></title>
-    <link href="http://tubaxenor.github.com/blog/2010/05/23/blog-post_23/"/>
-    <updated>2010-05-23T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2010/05/23/blog-post_23</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: blog-post_23 title: 每日一句 date: 2010-05-23 11:11:00.000000000 +08:00 categories: - Life permalink: /2010/05/blog-post_23.html &#8212; &#8220;You can do it&#8221; sometimes means you can&#8217;t do it.</p>
+    <title type="html"><![CDATA[每日一句]]></title>
+    <link href="http://tubaxenor.github.com/2010/05/blog-post\_23.html"/>
+    <updated>2010-05-23T11:11:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2010/05/blog-post_23</id>
+    <content type="html"><![CDATA[<p>&#8220;You can do it&#8221; sometimes means you can&#8217;t do it.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Blog Post_21]]></title>
-    <link href="http://tubaxenor.github.com/blog/2010/05/21/blog-post_21/"/>
-    <updated>2010-05-21T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2010/05/21/blog-post_21</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: blog-post_21 title: 每日一句 date: 2010-05-21 10:14:00.000000000 +08:00 categories: - Life permalink: /2010/05/blog-post_21.html &#8212; You can earn money by time, but you can&#8217;t buy time by money.</p>
+    <title type="html"><![CDATA[每日一句]]></title>
+    <link href="http://tubaxenor.github.com/2010/05/blog-post\_21.html"/>
+    <updated>2010-05-21T10:14:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2010/05/blog-post_21</id>
+    <content type="html"><![CDATA[<p>You can earn money by time, but you can&#8217;t buy time by money.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Blog Post_6783]]></title>
-    <link href="http://tubaxenor.github.com/blog/2010/05/19/blog-post_6783/"/>
-    <updated>2010-05-19T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2010/05/19/blog-post_6783</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: blog-post_6783 title: 每日一句 date: 2010-05-19 22:33:00.000000000 +08:00 categories: - Life permalink: /2010/05/blog-post_6783.html &#8212; Life is hard because of lasy, life is easy because of hard working.</p>
+    <title type="html"><![CDATA[每日一句]]></title>
+    <link href="http://tubaxenor.github.com/2010/05/blog-post\_6783.html"/>
+    <updated>2010-05-19T22:33:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2010/05/blog-post_6783</id>
+    <content type="html"><![CDATA[<p>Life is hard because of lasy, life is easy because of hard working.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Blog Post_19]]></title>
-    <link href="http://tubaxenor.github.com/blog/2010/05/19/blog-post_19/"/>
-    <updated>2010-05-19T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2010/05/19/blog-post_19</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: blog-post_19 title: 每日一句 date: 2010-05-19 00:29:00.000000000 +08:00 categories: - Life permalink: /2010/05/blog-post_19.html &#8212; If you are not making money, then you are spending it.</p>
+    <title type="html"><![CDATA[每日一句]]></title>
+    <link href="http://tubaxenor.github.com/2010/05/blog-post\_19.html"/>
+    <updated>2010-05-19T00:29:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2010/05/blog-post_19</id>
+    <content type="html"><![CDATA[<p>If you are not making money, then you are spending it.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Blog Post_18]]></title>
-    <link href="http://tubaxenor.github.com/blog/2010/05/17/blog-post_18/"/>
-    <updated>2010-05-17T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2010/05/17/blog-post_18</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: blog-post_18 title: 每日一句 date: 2010-05-17 11:14:00.000000000 +08:00 categories: - Life permalink: /2010/05/blog-post_18.html &#8212; Imagine success only makes you happy, it is doing that makes success possible.</p>
+    <title type="html"><![CDATA[每日一句]]></title>
+    <link href="http://tubaxenor.github.com/2010/05/blog-post\_18.html"/>
+    <updated>2010-05-17T11:14:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2010/05/blog-post_18</id>
+    <content type="html"><![CDATA[<p>Imagine success only makes you happy, it is doing that makes success possible.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Questions]]></title>
-    <link href="http://tubaxenor.github.com/blog/2010/05/16/questions/"/>
-    <updated>2010-05-16T00:00:00+08:00</updated>
-    <id>http://tubaxenor.github.com/blog/2010/05/16/questions</id>
-    <content type="html"><![CDATA[<p>&#8212; layout: post name: questions title: questions date: 2010-05-16 11:33:00.000000000 +08:00 categories: - study - psychology permalink: /2010/05/questions.html &#8212; 愈多的負面資訊(sex exposures, bizarre crimes or violences)是否會引發愈多的犯罪事件？</p>
-
-<p>還是新聞報導或資訊曝光後會因此而反思並減少犯罪事件？</p>
-
-<p>又或是因此而增加個體壓力？若愈多犯罪事件的產生，是否是因個體壓力增加而形成？</p>
+    <title type="html"><![CDATA[每日一句]]></title>
+    <link href="http://tubaxenor.github.com/2010/05/blog-post\_16.html"/>
+    <updated>2010-05-16T21:58:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2010/05/blog-post_16</id>
+    <content type="html"><![CDATA[<p>metacognition: See your self through your eyes on sky.</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blog | Xeno World]]></title>
   <link href="http://tubaxenor.github.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://tubaxenor.github.com/"/>
-  <updated>2013-02-15T15:18:36+08:00</updated>
+  <updated>2013-02-15T16:24:50+08:00</updated>
   <id>http://tubaxenor.github.com/</id>
   <author>
     <name><![CDATA[Xenor]]></name>
@@ -25,8 +25,8 @@
 
 <p>Pack your blogspot post (the max-results in gist is 500, adjust it for you need)
 <code>
-$ git clone git://gist.github.com/1807781
-$ cd 1807781
+$ git clone git://gist.github.com/4958888
+$ cd 4958888
 $ sh ./bloggerImport.sh &lt;blogname&gt;
 </code></p>
 

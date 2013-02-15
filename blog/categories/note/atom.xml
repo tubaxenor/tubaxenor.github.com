@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: note | Xeno World]]></title>
+  <link href="http://tubaxenor.github.com/blog/categories/note/atom.xml" rel="self"/>
+  <link href="http://tubaxenor.github.com/"/>
+  <updated>2013-02-15T16:24:50+08:00</updated>
+  <id>http://tubaxenor.github.com/</id>
+  <author>
+    <name><![CDATA[Xenor]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Notes]]></title>
+    <link href="http://tubaxenor.github.com/2012/03/notes.html"/>
+    <updated>2012-03-13T08:56:00+08:00</updated>
+    <id>http://tubaxenor.github.com/2012/03/notes</id>
+    <content type="html"><![CDATA[<p>no-password setting for linux:<br/>
+  sudo visudo     #setting sudo with vi<br/>
+  put "NOPASSWD:"</p>
+
+<p>ssh: # put your public key to the target computer<br/>
+  ssh-keygen # generate public and private key<br/>
+  scp id_rsa.pub 192.168.0.xxx: #put the key in to 192.168.0.xxx<br/>
+  ssh -p 123 192.168.0.xxx #ssh to the target computer with port 123<br/>
+  mkdir .ssh #make your own ssh dir there<br/>
+  mv id_rsa.pub .ssh<br/>
+  mv id_rsa.pub .ssh/id_rsa.pub<br/>
+  mv  .ssh/id_rsa.pub .ssh/authorized_key2</p>
+
+<p>mtr # trace route and ping tool<br/>
+   <a href="http://www.bitwizard.nl/mtr/">http://www.bitwizard.nl/mtr/</a></p>
+
+<p>fix hd3000 graphic card problem<br/>
+   <a href="http://community.linuxmint.com/tutorial/view/767">http://community.linuxmint.com/tutorial/view/767</a></p>
+
+<p>sqlite gui tool<br/>
+  sqliteman</p>
+]]></content>
+  </entry>
+  
+</feed>
