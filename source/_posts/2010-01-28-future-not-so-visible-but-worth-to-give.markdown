@@ -1,4 +1,12 @@
---- layout: post name: future-not-so-visible-but-worth-to-give title: Future, not so visible but worth to give a shot. date: 2010-01-28 11:15:00.000000000 +08:00 categories: - Life permalink: /2010/01/future-not-so-visible-but-worth-to-give.html --- 下個月開始將是一個新起點。  
+---  
+layout: post  
+name: future-not-so-visible-but-worth-to-give  
+title: Future, not so visible but worth to give a shot.  
+date: 2010-01-28 11:15:00 +0800  
+categories: ["Life"]  
+permalink: /2010/01/future-not-so-visible-but-worth-to-give.html  
+---  
+下個月開始將是一個新起點。  
     
     
 在一年又三個月的行政人員生活後，決定捨棄這平穩、枯燥，卻又矛盾、複雜的一切，  

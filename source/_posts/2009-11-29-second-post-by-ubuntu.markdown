@@ -1,4 +1,12 @@
---- layout: post name: second-post-by-ubuntu title: Second post by ubuntu date: 2009-11-29 23:44:00.000000000 +08:00 categories: - ubuntu permalink: /2009/11/second-post-by-ubuntu.html --- Linux不曉得從何時變成我不得不使用的作業系統，  
+---  
+layout: post  
+name: second-post-by-ubuntu  
+title: Second post by ubuntu  
+date: 2009-11-29 23:44:00 +0800  
+categories: ["ubuntu"]  
+permalink: /2009/11/second-post-by-ubuntu.html  
+---  
+Linux不曉得從何時變成我不得不使用的作業系統，  
     
 雖然開源程式使用者以及使用率仍不即MS或MAC，但這種完全掌握、完全分享的方式仍然令我無法自拔。  
     

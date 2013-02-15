@@ -1,4 +1,12 @@
---- layout: post name: notes-1 title: Note date: 2010-04-01 13:04:00.000000000 +08:00 categories: - psychology permalink: /2010/04/notes-1.html --- 1. Learning (or attention?) in music background.  
+---  
+layout: post  
+name: notes-1  
+title: Note  
+date: 2010-04-01 13:04:00 +0800  
+categories: ["psychology"]  
+permalink: /2010/04/notes-1.html  
+---  
+1. Learning (or attention?) in music background.  
      
     task type:  
                     short-term / working memories (might be interfere by intellgence)  

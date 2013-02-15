@@ -1,4 +1,12 @@
---- layout: post name: questions title: questions date: 2010-05-16 11:33:00.000000000 +08:00 categories: - study - psychology permalink: /2010/05/questions.html --- 愈多的負面資訊(sex exposures, bizarre crimes or violences)是否會引發愈多的犯罪事件？  
+---  
+layout: post  
+name: questions  
+title: questions  
+date: 2010-05-16 11:33:00 +0800  
+categories: ["study", "psychology"]  
+permalink: /2010/05/questions.html  
+---  
+愈多的負面資訊(sex exposures, bizarre crimes or violences)是否會引發愈多的犯罪事件？  
     
 還是新聞報導或資訊曝光後會因此而反思並減少犯罪事件？  
     

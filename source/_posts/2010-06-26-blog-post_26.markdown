@@ -1,4 +1,12 @@
---- layout: post name: blog-post\_26 title: 家中事 date: 2010-06-26 01:22:00.000000000 +08:00 categories: - Life permalink: /2010/06/blog-post\_26.html --- 人與人之間的關係，血緣是唯一無法選擇的。  
+---  
+layout: post  
+name: blog-post\_26  
+title: 家中事  
+date: 2010-06-26 01:22:00 +0800  
+categories: ["Life"]  
+permalink: /2010/06/blog-post\_26.html  
+---  
+人與人之間的關係，血緣是唯一無法選擇的。  
     
 以血緣做為手段，扭曲拉扯人際關係中最重要的信任，不但不見悔意，  
 連償還過錯也是由別人來負責，我實在無法忍受。  

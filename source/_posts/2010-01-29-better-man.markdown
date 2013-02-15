@@ -1,4 +1,12 @@
---- layout: post name: better-man title: A better man date: 2010-01-29 17:24:00.000000000 +08:00 categories: [] permalink: /2010/01/better-man.html --- 目前工作的小組組長，是政大英語系的助理教授－施老師，我之所以有這一份工作（或前一份工作），  
+---  
+layout: post  
+name: better-man  
+title: A better man  
+date: 2010-01-29 17:24:00 +0800  
+categories: []  
+permalink: /2010/01/better-man.html  
+---  
+目前工作的小組組長，是政大英語系的助理教授－施老師，我之所以有這一份工作（或前一份工作），  
     
 幾乎完全是因為他的關係，連我選擇離開這份工作（good part），也與這位老師有關。  
     

@@ -1,4 +1,12 @@
---- layout: post name: frustration title: Frustration. date: 2010-02-25 16:48:00.000000000 +08:00 categories: - Life permalink: /2010/02/frustration.html --- 1.再過三天就要考試了，嘴巴上雖說目標在明年，但今天看考古題仍然覺得有很強烈的挫折感。  
+---  
+layout: post  
+name: frustration  
+title: Frustration.  
+date: 2010-02-25 16:48:00 +0800  
+categories: ["Life"]  
+permalink: /2010/02/frustration.html  
+---  
+1.再過三天就要考試了，嘴巴上雖說目標在明年，但今天看考古題仍然覺得有很強烈的挫折感。  
     
 2.目前理想中的我跟現實中的我差異仍然不小，但有漸漸努力在縮小當中，希望再三個月，一切都可以按照計畫進行。  
     

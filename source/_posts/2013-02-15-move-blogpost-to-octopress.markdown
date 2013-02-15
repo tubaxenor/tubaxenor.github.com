@@ -14,8 +14,8 @@ If you are in Taiwan like me, need to go to /etc/hosts and add one line
 
 Pack your blogspot post (the max-results in gist is 500, adjust it for you need)
 ```
-$ git clone git://gist.github.com/1807781
-$ cd 1807781
+$ git clone git://gist.github.com/4958888
+$ cd 4958888
 $ sh ./bloggerImport.sh <blogname> 
 ```
 

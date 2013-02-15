@@ -1,4 +1,12 @@
---- layout: post name: blog-post title: 新文章 date: 2011-01-03 15:10:00.000000000 +08:00 categories: - Life permalink: /2011/01/blog-post.html --- 結果一晃眼就來到2011啦，轉職成程式設計師快半年了，  
+---  
+layout: post  
+name: blog-post  
+title: 新文章  
+date: 2011-01-03 15:10:00 +0800  
+categories: ["Life"]  
+permalink: /2011/01/blog-post.html  
+---  
+結果一晃眼就來到2011啦，轉職成程式設計師快半年了，  
     
 回首望去，結果還是沒念成書阿，科科。  
     

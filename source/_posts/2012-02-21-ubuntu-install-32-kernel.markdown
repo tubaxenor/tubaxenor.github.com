@@ -1,4 +1,12 @@
---- layout: post name: ubuntu-install-32-kernel title: Ubuntu install 3.2 kernel date: 2012-02-21 22:53:00.000000000 +08:00 categories: - ubuntu permalink: /2012/02/ubuntu-install-32-kernel.html --- 買了一台HP G4-1206AX，APU跟ATI的顯卡真的有夠難搞...  
+---  
+layout: post  
+name: ubuntu-install-32-kernel  
+title: Ubuntu install 3.2 kernel  
+date: 2012-02-21 22:53:00 +0800  
+categories: ["ubuntu"]  
+permalink: /2012/02/ubuntu-install-32-kernel.html  
+---  
+買了一台HP G4-1206AX，APU跟ATI的顯卡真的有夠難搞...  
     
 一定要好好記錄一下怎麼搞定的！  
     
